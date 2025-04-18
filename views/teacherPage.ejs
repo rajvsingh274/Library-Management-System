@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Page</title>
+    <link rel="stylesheet" href="/loginPage.css">
+    <link rel="stylesheet" href="/studentAdminPage.css">
+</head>
+<body class="student-body">
+    <div class="header">
+        
+        <h3 class="header-element header-text-1">My Library</h3>
+        <a href="homepage.html"><h3 class="header-element header-text-2">Home</h3></a>
+        <a href="loginPage.html"><h3 class="header-element header-text-3">Login</h3></a>
+        <a href="AboutPage.html"><h3 class="header-element header-text-4">About</h3></a>  
+    </div>
+
+    <div>
+        <h1 class="logged-in-person "><%=user_name%> (<%=type%>)</h1>
+        <h2 class="student-table-heading"><%=type%> Detail</h2>
+        <table class="student-table">
+            <tr class="table-rows">
+            <th id="user-id">Teacher ID</th>
+            <th class="user-name" style="width:10%">Name</th>
+            <th  >Email</th>
+            <th  style="width:10%">Phone</th>
+            <th >Address</th>
+            </tr>
+            <tr>
+            <td><%=user_id%></td>
+            <td><%=user_name%></td>
+            <td id="user-email"><%=email%></td>
+            <td id="user-phone"><%=phone%></td>
+            <td id="user-address"><%=address%></td>
+            </tr>
+        </table>        
+
+
+            
+           
+        </div>
+    </div>
+    <!-- <div>
+        <a href="feedback.html"><button class="feedback-button">Give Feedback</button></a>
+    </div> -->
+
+   
+
+
+    <div>
+        <h2 class="book-table-heading">Book details</h2>
+        <table class="book-table">
+            
+            <tr class="table-rows">
+            <th >Book ID</th>
+            <td ><%=bookId1%></td>
+            <td ><%=bookId2%></td>
+            <td ><%=bookId3%></td>
+            <td ><%=bookId4%></td>
+            </tr>
+            <tr>
+            <th>Book name</th>
+            <td><%=bookName1%></td>
+            <td><%=bookName2%></td>
+            <td><%=bookName3%></td>
+            <td><%=bookName4%></td>
+            </tr>
+        </table>   
+    </div>
+
+    <div class="footer">
+        <h6 class="footer-text">Library Management System @IIIT Allahabad</h6>
+        
+    </div>
+</body>
+</html>

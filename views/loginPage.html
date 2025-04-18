@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+    <link rel="stylesheet" href="/loginPage.css">
+   
+</head>
+<body class="login-page-body">
+
+    
+    <div class="header">
+        
+        <h3 class="header-element header-text-1">My Library</h3>
+        <a href="homepage.html"><h3 class="header-element header-text-2">Home</h3></a>
+        <a href="loginPage.html"><h3 class="header-element header-text-3">Login</h3></a>
+        <a href="AboutPage.html"><h3 class="header-element header-text-4">About</h3></a>    
+    </div>
+
+
+    <div class="login-form">
+        <div class="hello">
+        
+        <form action="/loginPage" method="post" class="form_login">
+            <div class="container">
+            
+             <img src="/images/icon.png" alt="" class="icon" >
+             <br>
+             <label for="role" class="item10">Choose your role</label>
+           
+
+             <select name="role" id="role" class="item0">
+               <option value="admin">Admin</option>
+               <option value="student">Student</option>
+               <option value="teacher">Teacher</option>
+               
+             </select>
+     
+           <label for="username" class="item1">User ID</label><br>
+            <input type="text" name="username" id="username" class="item1" required>
+            <br>
+            <label for="password"  class="item2">Password</label>
+            <br>
+            <input type="password" name="password" id="password" class="item2" required>
+            <br>
+            <button type="submit" class="button item">Login</button>
+            <!-- <a class="forget" href="forget_password.html">forget password</a> -->
+        </div>
+        </form>
+
+    </div>
+  
+    </div>
+
+
+   
+
+    <div class="footer">
+        <h6 class="footer-text">Library Management System @IIIT Allahabad</h6>
+        
+    </div>
+</body>
+</html>

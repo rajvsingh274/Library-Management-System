@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Book Page</title>
+    <link rel="stylesheet" href="/loginPage.css">
+    <link rel="stylesheet" href="/deleteStudentBook_and_Feedback.css">
+</head>
+<body class="student-body" style="overflow-x: hidden;">
+    <div class="header">
+        
+        <h3 class="header-element header-text-1">My Library</h3>
+        <a href="homepage.html"><h3 class="header-element header-text-2">Home</h3></a>
+        <a href="loginPage.html"><h3 class="header-element header-text-3">Login</h3></a>
+        <a href="AboutPage.html"><h3 class="header-element header-text-4">About</h3></a>  
+    </div>
+
+    <div>
+        <form action="/deleteBook" method="post">
+        <h1 class="delete-tag">Delete Book </h1>
+        <h1 class="student-deleted"> Enter Book ID :  <input class="box" type="number" name="delete_book_id" id="delete_book_id" required> <button class="submit" onclick="return validateBookId()">Submit</button></h1>
+        
+        </form>
+
+        
+            
+           
+        
+    </div>
+    <div class="footer">
+        <h6 class="footer-text">Library Management System @IIIT Allahabad</h6>
+        
+    </div>
+    <script src="/formValidation.js"></script>
+</body>
+</html>

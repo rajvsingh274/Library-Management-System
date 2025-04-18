@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="/loginPage.css">
+    <link rel="stylesheet" href="/studentAdminPage.css">
+    
+    <link rel="stylesheet" href="/adminPage.css">
+    
+</head>
+<body class="student-body">
+    <div class="header">
+        
+        <h3 class="header-element header-text-1">My Library</h3>
+        <a href="homepage.html"><h3 class="header-element header-text-2">Home</h3></a>
+        <a href="loginPage.html"><h3 class="header-element header-text-3">Login</h3></a>
+        <a href="AboutPage.html"><h3 class="header-element header-text-4">About</h3></a>  
+    </div>
+
+    <div>
+        <h1 class="logged-in-person "><%=user_name%> (<%=type%>)</h1>
+        <h2 class="student-table-heading"><%=type%> detail</h2>
+        <table class="student-table">
+            <tr class="table-rows">
+            <th id="user-id">Student ID</th>
+            <th class="user-name" style="width:10%">Name</th>
+            <th  >Email</th>
+            <th  style="width:10%">Phone</th>
+            <th >Address</th>
+            </tr>
+            <tr>
+            <td><%=user_id%></td>
+            <td><%=user_name%></td>
+            <td id="user-email"><%=email%></td>
+            <td id="user-phone"><%=phone%></td>
+            <td id="user-address"><%=address%></td>
+            </tr>
+        </table> 
+    <div class="admin-buttons">
+        <a href="issues.ejs"><button type ="button" class="button" >Show all issue </button></a>
+        <a href="books.ejs"><button type ="button" class="button" >Show all books </button></a>
+        <a href="users.ejs"><button type ="button" class="button" >Show all Users </button></a>
+        <a href="deleteStudent.html"><button type ="button" class="button" >Delete a User </button></a>  
+        <a href="addStudentPage.html"><button type ="button" class="button"  >Add a User</button> </a> 
+        <a href="deleteBook.html"><button type ="button" class="button"  >Delete a book </button> </a>
+        <a href="addBookPage.html"><button type ="button" class="button"  >Add a book</button></a>  
+        <a href="manageBookPage.html"><button type ="button" class="button"  >Manage book</button></a>
+        <a href="deleteIssue.html"><button type ="button" class="button"  >Delete Issue</button></a> 
+    </div>   
+        
+             
+           
+    
+
+
+
+
+    <div class="footer">
+        <h6 class="footer-text">Library Management System @IIIT Allahabad</h6>
+        
+    </div>
+</body>
+</html>
