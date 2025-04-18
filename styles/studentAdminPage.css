@@ -1,0 +1,131 @@
+.student-body{
+    background-color: #ACDBDF;
+}
+.logged-in-person{
+    position: absolute;
+    width: 548px;
+    height: 53px;
+    left: 100px;
+    top: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+
+    color: #000000;
+}
+.student-table{
+    position: absolute;
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    height: 60px;
+    left: 100px;
+    top: 250px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+}
+.table-rows{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+th{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+.book-table{
+    position: absolute;
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    height: 60px;
+    left: 100px;
+    top: 450px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+.student-table-heading{
+    position: absolute;
+    top:25%;
+    left: 6.5%;
+}
+.book-table-heading{
+    position: absolute;
+    top: 52%;
+    left:6.5%;
+}
+.feedback-button{
+    position: absolute;
+    left:80%;
+    top: 18%;
+    font-size: large;
+    color: white;
+    background: rgba(105, 119, 155, 1);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.admin-buttons{
+    margin-right: 2rem;
+}
+.all-issues{
+    text-align: center;
+    
+    margin-left: 30rem;
+    margin-top: 12rem;
+   
+}
+.all-issues-th{
+    width: 10rem;
+
+}
+.all-issues-td{
+    width: 10rem;
+    
+}
+.all-books{
+    text-align: center;
+    
+    margin-left: 19rem;
+    margin-top: 5rem;
+   
+}
+.all-books-th{
+    width: 20rem;
+
+}
+.all-books-td{
+    width: 20rem;
+    
+}
+.all-users{
+    text-align: center;
+    
+    margin-left: 9rem;
+    margin-top: 4rem;
+   
+}
+.all-users-th{
+    width: 15rem;
+
+}
+.all-users-td{
+    width: 15rem;
+    
+}
