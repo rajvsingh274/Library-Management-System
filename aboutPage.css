@@ -1,0 +1,22 @@
+.group-members{
+    font-family:'Inter';
+    text-align: center;
+    width: 500px;
+    font-size: 20px;
+    margin: 2px;
+    left: 35%;
+}
+.memeber{
+    text-align: center;
+}
+.group-description{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+}
+.end-text{
+    text-align: center;
+}
